@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="form">
+            <div class="group-container">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" onkeyup="valiatename()" placeholder="name" required>
+                <span class="name-error sucess"></span>
+            </div>
+            <div class="group-container">
+                <label for="number">Phone number:</label>
+                <input type="tel" name="number" id="number" maxlength="10" onkeyup="valiatenumber()" placeholder="123 456 7890" required>
+                <span class="number-error sucess"></span>
+            </div>
+            <div class="group-container">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" onkeyup="valiateemail()" placeholder="xyz@gmail.com" required>
+                <span class="email-error sucess"></span>
+            </div>
+            <div class="group-container">
+                <label for="textarea">Message:</label>
+               <textarea name="textarea" id="textarea" rows="5" onkeyup="valiatearea()" required></textarea>
+                <span class="teaxtarea-error sucess"></span>
+            </div>
+            <button type="submit" onclick="sumbit()"><a id="myLink" href="#">Submit</a></button>
+            <span class="submit-error"></span>
+        </form>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

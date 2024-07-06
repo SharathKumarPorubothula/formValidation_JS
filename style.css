@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    position: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 34, 137);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+.group-container{
+    position: relative;
+}
+.name-error,.number-error,.email-error,.teaxtarea-error{
+    color: red;
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+}
+.teaxtarea-error{
+    bottom: 10px;
+}
+.submit-error{
+    color: red;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.check{
+    border-radius: 50%;
+    color:white;
+    background-color: rgb(32, 240, 32);
+}
+input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.507);
+}
+textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.507);
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(37, 37, 231);
+    border: none;
+    border-radius: 5px;
+    margin-left: 20%;
+}
+button a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.sb{
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(37, 37, 231);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 55px;
+}
+@media (max-height:480px) {
+    body{
+        height: 150vh;
+    }
+}
