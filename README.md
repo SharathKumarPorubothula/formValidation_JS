@@ -1,5 +1,3 @@
-# formValidation_JS
-
 # Form Validation with JavaScript
 # Overview
 - This repository contains a simple yet effective form validation solution using JavaScript. The goal is to ensure that users provide the correct and complete information before submitting the form. This helps improve data quality and user experience by providing instant feedback on the validity of the inputs.
